@@ -1,0 +1,165 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+@font-face {
+  font-family: "Whitenice";
+  src: url("./fonts/Whitenice.ttf") format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;     
+
+}
+
+@font-face {
+  font-family: 'Comfortaa';
+  src: url('./fonts/Comfortaa-Light.ttf') format('truetype');
+  font-weight: light;
+  font-style: normal;
+
+}
+
+@font-face {
+  font-family: 'Comfortaa';
+  src: url('./fonts/Comfortaa-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+@font-face {
+  font-family: 'Comfortaa';
+  src: url('./fonts/Comfortaa-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+
+}
+
+@font-face {
+  font-family: 'Amorlate';
+  src: url('./fonts/Amorlate.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  
+
+}
+
+.fullHeading {
+    font-family: 'Amorlate';
+    letter-spacing: calc(normal + 1);
+    font-size: 60px;
+    color: #F6F7F0;
+
+
+}
+.sectionHeading {
+    font-family: 'Amorlate';
+    letter-spacing: calc(normal + 1);
+    font-size: 58px;
+    color: #2D151B;
+}
+
+.accentThankYou {
+    font-family: 'Whitenice';
+    font-size: 50px;
+    letter-spacing: calc(normal + 2);
+    color: #2D151B;
+}
+.accentSignature {
+    font-family: 'Whitenice';
+    font-size: 88px;
+    letter-spacing: calc(normal + 2);
+    color: #2D151B;
+}
+.bodyText {
+    font-family: 'Comfortaa';
+    font-size: 22px;
+    color: #2D151B;
+    padding:25px;
+}
+.bodyTextSmall {
+    font-family: 'Comfortaa';
+    font-size: 36px;
+    color: #2D151B;
+}
+
+
+
+.headerbar {
+    display: flex;
+
+    padding:18px;
+    align-items: center;
+    background-color: #FC065E;
+    
+}
+
+body {
+  --s: 80px; /* the size */
+  --c: #EA89A6;
+  
+  --_s: calc(2*var(--s)) calc(2*var(--s));
+  --_g: 35.36% 35.36% at;
+  --_c: #0000 66%,#DDBA60 68% 70%,#0000 72%;
+  background:
+    radial-gradient(var(--_g) 100% 25%,var(--_c)) var(--s) var(--s)/var(--_s),
+    radial-gradient(var(--_g) 0    75%,var(--_c)) var(--s) var(--s)/var(--_s),
+    radial-gradient(var(--_g) 100% 25%,var(--_c)) 0 0/var(--_s),
+    radial-gradient(var(--_g) 0    75%,var(--_c)) 0 0/var(--_s),
+    repeating-conic-gradient(var(--c) 0 25%,#0000 0 50%) 0 0/var(--_s),
+    radial-gradient(var(--_c)) 0 calc(var(--s)/2)/var(--s) var(--s)
+    var(--c);
+}
+
+.content{
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    background-color: #F0CCCC;
+
+    width: 70vw;
+    align-self: center;
+    justify-self: center;
+    justify-content: center;
+    padding: 35px;
+}
+
