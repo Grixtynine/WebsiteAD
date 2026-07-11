@@ -116,6 +116,8 @@ table {
     font-size: 22px;
     color: #2D151B;
     padding:25px;
+    z-index: 3;
+
 }
 .bodyTextSmall {
     font-family: 'Comfortaa';
@@ -155,11 +157,45 @@ body {
     display: grid;
     grid-template-columns: repeat(2, auto);
     background-color: #F0CCCC;
-
+    
     width: 70vw;
     align-self: center;
     justify-self: center;
     justify-content: center;
     padding: 35px;
+    z-index: 2;
 }
 
+.contentoverlap{
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    background-color: #F0CCCC;
+    height: 110;
+    width: 70vw;
+    align-self: center;
+    justify-self: center;
+    justify-content: center;
+    padding-top: 60px;
+    padding-bottom: 120px;
+    padding-left: 35px;
+        padding-right: 35px;
+    z-index: 2;
+    position: relative;
+}
+#cat {
+    position: absolute;
+    margin-bottom: 25px;
+    top: -150px;
+    left: -110px;
+}
+#cat2 {
+    position: absolute;
+    margin-bottom: 25px;
+    top: -150px;
+    left: 400px;
+}
+.contentoverlap .bodyText{
+    
+    background-color: #ffffff80;
+
+}
