@@ -1,6 +1,6 @@
 const imagesList = [
-    {"src":"https://www.html-code-generator.com/images/slider/1.png","link":"","alt":"","name":"image 1"},
-    {"src":"https://www.html-code-generator.com/images/slider/2.png","link":"","alt":"","name":"image 2"},
+    {"src":"images/250px-Portrait_Placeholder.png","link":"","alt":"","name":"image 1"},
+    {"src":"images/1783637092608blob.jpg","link":"","alt":"","name":"image 2"},
 
 ];
 
