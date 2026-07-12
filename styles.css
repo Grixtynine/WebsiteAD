@@ -90,7 +90,7 @@ a, a:link, a:visited, a:hover, a:active {
 
 .fullHeading {
     font-family: 'Amorlate';
-    letter-spacing: calc(normal + 1);
+
     font-size: 50px;
     color: #F6F7F0;
     display: flex;
@@ -108,7 +108,6 @@ a, a:link, a:visited, a:hover, a:active {
 }
 .sectionHeading {
     font-family: 'Amorlate';
-    letter-spacing: calc(normal + 1);
     font-size: 44px;
     justify-self: center;
     color: #2D151B;
@@ -117,13 +116,11 @@ a, a:link, a:visited, a:hover, a:active {
 .accentThankYou {
     font-family: 'Whitenice';
     font-size: 50px;
-    letter-spacing: calc(normal + 2);
     color: #2D151B;
 }
 .accentSignature {
     font-family: 'Whitenice';
     font-size: 88px;
-    letter-spacing: calc(normal + 2);
     color: #2D151B;
 }
 .bodyText {
@@ -185,7 +182,6 @@ body {
     display: grid;
     grid-template-columns: repeat(2, auto);
     background-color: #F0CCCC;
-    height: 110;
     width: 70vw;
     align-self: center;
     justify-self: center;
