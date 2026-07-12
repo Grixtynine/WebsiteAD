@@ -1,9 +1,7 @@
 const imagesList = [
     {"src":"https://www.html-code-generator.com/images/slider/1.png","link":"","alt":"","name":"image 1"},
     {"src":"https://www.html-code-generator.com/images/slider/2.png","link":"","alt":"","name":"image 2"},
-    {"src":"https://www.html-code-generator.com/images/slider/3.png","link":"","alt":"","name":"image 3"},
-    {"src":"https://www.html-code-generator.com/images/slider/4.png","link":"","alt":"","name":"image 4"},
-    {"src":"https://www.html-code-generator.com/images/slider/5.png","link":"","alt":"","name":"image 5"}
+
 ];
 
 function simpleSlider(selector, imagesList, options = {}) {
