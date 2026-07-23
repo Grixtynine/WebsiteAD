@@ -383,6 +383,8 @@ audio{
     animation-name: fadeIn;
 }
 
+////////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////////
 
 .form {
   font  : 1.6rem sans-serif;
@@ -421,7 +423,7 @@ h1 {
 }
 
 label {
-  font : 1.25em "Whitenice", sans-serif;
+  font : 1.5em "Whitenice", sans-serif;
 }
 
 input,
@@ -459,7 +461,7 @@ button {
   font         : bold .6em sans-serif;
   border       : 2px solid #333;
   border-radius: 5px;
-  background   : rgb(216, 204, 204);
+  background   : rgb(180, 158, 158);
   cursor       : pointer;
   transform    : rotate(-1.5deg);
 }
