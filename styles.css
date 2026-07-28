@@ -108,7 +108,7 @@ a, a:link, a:visited, a:hover, a:active {
 }
 .sectionHeading {
     font-family: 'Amorlate';
-    font-size: 44px;
+    font-size: 54px;
     justify-self: center;
     color: #2D151B;
 }
@@ -208,7 +208,25 @@ body {
 #soundwave2{
     position: absolute;
     left: 140px;
-    bottom: -20px;
+
+}
+#heart1{
+    position: absolute;
+    left: 700px;
+    top: 500px;
+
+}
+#heart2{
+    position: absolute;
+    left: 1000px;
+    top: 600px;
+
+}
+#heart3{
+    position: absolute;
+    left: 800px;
+    top: 800px;
+
 }
 #cat2 {
     position: absolute;
@@ -219,16 +237,17 @@ body {
 }
 #star{
     position: absolute;
-    left: 490px;
-    top: 0px;
+    left: 840px;
+    top: 220px;
     z-index: 0;
 
 }
 audio{
-    position: absolute;
-    bottom: 30px;
+    position: relative;
+    bottom: -50px;
 }
 #logo {
+    z-index: 100000000000000000000000000000000;
     padding: 30px;
     position: absolute;
     background-color: #F6F7F0;
@@ -236,14 +255,20 @@ audio{
     object-fit: cover;
     overflow: visible;
     top: 15px;
-    border-radius: 100px;
+    border-radius: 160px;
 }
 
-.contentoverlap #Contact{
-    width: 80%;
+#Bio{
+    width: 58%;
     justify-self: right;
     padding: 35px;
-    background-color: #ffffff80;
+    background-color: #ffffffaf;
+
+}
+#aboutme{
+    position: relative;
+    left: 100px;
+
 
 }
 .audiocont {
@@ -383,8 +408,7 @@ audio{
     animation-name: fadeIn;
 }
 
-////////////////////////////////////////////////////////////////////////////////////
-////////////////////////////////////////////////////////////////////////////////////
+
 
 .form {
   font  : 1.6rem sans-serif;
@@ -453,7 +477,7 @@ textarea {
   border-right: 1px solid;
 
   /* resize  : none; */
-  overflow: auto;
+
 }
 
 button {
