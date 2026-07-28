@@ -1,6 +1,12 @@
 const imagesList = [
-    {"src":"images/250px-Portrait_Placeholder.png","link":"","alt":"","name":"image 1"},
-    {"src":"images/1783637092608blob.jpg","link":"","alt":"","name":"image 2"},
+    {"src":"images/1.jpg","link":"","alt":"","name":"image 1"},
+    {"src":"images/2.jpg","link":"","alt":"","name":"image 1"},
+    {"src":"images/3.jpg","link":"","alt":"","name":"image 1"},
+    {"src":"images/4.png","link":"","alt":"","name":"image 1"},
+    {"src":"images/5.png","link":"","alt":"","name":"image 1"},
+    {"src":"images/6.png","link":"","alt":"","name":"image 1"},
+    {"src":"images/7.png","link":"","alt":"","name":"image 1"},
+    {"src":"images/8.png","link":"","alt":"","name":"image 1"},
 
 ];
 
