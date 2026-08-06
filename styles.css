@@ -529,3 +529,28 @@ button:focus {
   color       : #FFF;
 }
 
+.target {
+    display: flex;
+ align-self: center;
+ position: relative;
+}
+.target1 {
+    position: absolute;
+    left: 400px;
+    width: 500px;
+}
+.target2 {
+    position: absolute;
+    right: 400px;
+    top: 500px;
+    width: 500px;
+}
+.trigger:hover ~ .target1 {
+  content: url('./images/left2.png');
+  left: -200px;
+}
+.trigger:hover ~ .target2 {
+  content: url('./images/right2.png');
+      transform: rotate(40deg);
+        right: -200px;
+}
