@@ -161,7 +161,7 @@ a, a:link, a:visited, a:hover, a:active {
     font-size: 22px;
     color: #2D151B;
     padding:25px;
-    padding-top: 0px;
+
     padding-left: 50px;
     z-index: 3;
     justify-self: center;
@@ -292,7 +292,7 @@ body {
 #flower1{
     position: absolute;
     left: 940px;
-    top: 250px;
+    top: 350px;
     z-index: 0;
 
 }
@@ -330,6 +330,7 @@ audio{
     position: relative;
     z-index: 1000000000000000000000000000000000000;
     bottom: 50px;
+
 }
 #logo {
     z-index: 10000000000;
@@ -375,7 +376,7 @@ audio{
 .hcg-slider {
     width: auto;
     height: auto;
-    text-align: center;
+    text-align: left;
     font-family: Arial, Helvetica, sans-serif;
 }
 .hcg-slide-container {
@@ -385,6 +386,8 @@ audio{
     display: inline-block;
     position: relative;
     overflow: hidden;
+    left: -250px;
+    top: 100px;
 }
 .hcg-slider-track {
     height: 100%;
@@ -451,15 +454,15 @@ display: inline-block;
     margin-top: 10px;
     text-align: center;
 }
-.hcg-slide-dot {
-    cursor: pointer;
-    height: 13px;
-    width: 13px;
-    margin: 0 2px;
-    background-color: #bbb;
-    border-radius: 50%;
-    display: inline-block;
-}
+            //.hcg-slide-dot {
+                cursor: pointer;
+                height: 13px;
+                width: 13px;
+                margin: 0 2px;
+                background-color: #bbb;
+                border-radius: 50%;
+                display: inline-block;
+            }
 .hcg-slide-dot.dot-active {
     background-color: #717171;
 }
@@ -586,20 +589,22 @@ button:focus {
  position: relative;
 }
 .target1 {
+        position: absolute;
+    left: 100px;
+    top: 470px;
+    width: 400px;
+
+}
+.target2 {
     position: absolute;
     left: 0px;
     top: 60px;
     width: 400px;
 }
-.target2 {
-    position: absolute;
-    left: 100px;
-    top: 470px;
-    width: 400px;
-}
 
 .imageanim:hover .target1 {
   content: url('./images/left2.png');
+    transform: rotate(-40deg);
   left: -350px;
 }
 
@@ -611,4 +616,25 @@ button:focus {
 .target1,
 .target2 {
   transition: left 0.5s ease, transform 0.5s ease;
+}
+
+
+#demo{
+    position: relative;
+    top: -60px;
+}
+
+#slideshowtext {
+        width: 58%;
+    justify-self: right;
+    padding: 35px;
+    background-color: #ffffffaf;
+    font-family: 'Comfortaa';
+    font-size: 22px;
+    color: #2D151B;
+    padding:25px;
+
+    z-index: 311111111111;
+    position: relative;
+    top: 10px;
 }

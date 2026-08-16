@@ -1,8 +1,8 @@
 const imagesList = [
-    {"src":"images/1.jpg","link":"","alt":"","name":"image 1"},
-    {"src":"images/2.jpg","link":"","alt":"","name":"image 1"},
-    {"src":"images/3.jpg","link":"","alt":"","name":"image 1"},
-    {"src":"images/8.png","link":"","alt":"","name":"image 1"},
+    {"src":"images/1.jpg","link":"https://google.com","alt":"","name":"image 1"},
+    {"src":"images/2.jpg","link":"https://youtube.com","alt":"","name":"image 1"},
+    {"src":"images/3.jpg","link":"https://bing.com","alt":"","name":"image 1"},
+    {"src":"images/8.png","link":"https://yahoo.com","alt":"","name":"image 1"},
 
 ];
 
