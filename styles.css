@@ -169,6 +169,22 @@ a, a:link, a:visited, a:hover, a:active {
     display: flex;
 
 }
+.bodyText3 {
+    font-family: 'Comfortaa';
+    font-size: 22px;
+    color: #2D151B;
+    padding:25px;
+    background-color: white;
+    position: relative;
+    z-index: 3;
+    justify-self: center;
+    right: -140px;
+    top: 150px;
+
+    max-width: 700px;
+    display: flex;
+
+}
 .bodyTextSmall {
     font-family: 'Comfortaa';
     font-size: 36px;
@@ -187,22 +203,19 @@ a, a:link, a:visited, a:hover, a:active {
 }
 
 body {
-  --s: 80px; /* the size */
-  --c: #EA89A6;
-  
-  --_s: calc(2*var(--s)) calc(2*var(--s));
-  --_g: 35.36% 35.36% at;
-  --_c: #0000 66%,#DDBA60 68% 70%,#0000 72%;
-  background:
-    radial-gradient(var(--_g) 100% 25%,var(--_c)) var(--s) var(--s)/var(--_s),
-    radial-gradient(var(--_g) 0    75%,var(--_c)) var(--s) var(--s)/var(--_s),
-    radial-gradient(var(--_g) 100% 25%,var(--_c)) 0 0/var(--_s),
-    radial-gradient(var(--_g) 0    75%,var(--_c)) 0 0/var(--_s),
-    repeating-conic-gradient(var(--c) 0 25%,#0000 0 50%) 0 0/var(--_s),
-    radial-gradient(var(--_c)) 0 calc(var(--s)/2)/var(--s) var(--s)
-    var(--c);
+    background-image: url(./images/background.jpg);
+    background-size: 600px;
+    animation: scrollBackground 60s linear infinite;
 }
 
+@keyframes scrollBackground {
+  from {
+    background-position: 0 400px;
+  }
+  to {
+    background-position: 600px 400px; 
+  }
+}
 .content{
     display: grid;
     grid-template-columns: repeat(2, auto);
@@ -292,21 +305,21 @@ body {
 #flower1{
     position: absolute;
     left: 940px;
-    top: 350px;
+    top: 150px;
     z-index: 0;
 
 }
 #flower2{
     position: absolute;
     left: 300px;
-    top: 380px;
+    top: 180px;
     z-index: 0;
 
 }
 #flower3{
     position: absolute;
     left: 550px;
-    top: 380px;
+    top: 180px;
     z-index: 0;
     transform: rotate(90deg);
 
@@ -373,12 +386,6 @@ audio{
     padding-bottom: 80px;
 }
 
-.hcg-slider {
-    width: auto;
-    height: auto;
-    text-align: left;
-    font-family: Arial, Helvetica, sans-serif;
-}
 .hcg-slide-container {
     height: 100%;
     width: 100%;
@@ -386,12 +393,22 @@ audio{
     display: inline-block;
     position: relative;
     overflow: hidden;
-    left: -250px;
-    top: 100px;
+    left: -160px;
 }
+.hcg-slide-container1 {
+    height: 100%;
+    width: 100%;
+    max-width: 100%;
+    display: inline-block;
+    position: relative;
+    overflow: hidden;
+}
+
+
 .hcg-slider-track {
     height: 100%;
 }
+
 .hcg-slides {
     width: 100%;
     height: 100%;
@@ -403,10 +420,12 @@ audio{
     border: solid 1px #a0a0a0;
     box-sizing: border-box;
 }
+
 .hcg-slides img {
-height: 480px;
-display: inline-block;
+    height: 480px;
+    display: inline-block;
 }
+
 .hcg-slide-text {
     color: #000000;
     font-size: 20px;
@@ -423,7 +442,9 @@ display: inline-block;
     text-transform: capitalize;
     font-weight: bold;
 }
-#hcg-slide-prev, #hcg-slide-next {
+
+.hcg-slide-prev,
+.hcg-slide-next {
     cursor: pointer;
     position: absolute;
     top: 50%;
@@ -434,38 +455,28 @@ display: inline-block;
     font-weight: bold;
     font-size: 18px;
     transition: 0.6s ease;
-    border-radius: 0 3px 3px 0;
     text-decoration: none;
     text-shadow: 1px 1px 5px #686868;
     z-index: 2;
 }
-#hcg-slide-next {
+
+.hcg-slide-next {
     right: 0;
     border-radius: 3px 0 0 3px;
 }
-#hcg-slide-prev {
+
+.hcg-slide-prev {
     left: 0;
     border-radius: 0 3px 3px 0;
 }
-#hcg-slide-prev:hover, #hcg-slide-next:hover {
+
+.hcg-slide-prev:hover,
+.hcg-slide-next:hover {
     background-color: #000c;
 }
-.hcg-slide-dot-control {
-    margin-top: 10px;
-    text-align: center;
-}
-            //.hcg-slide-dot {
-                cursor: pointer;
-                height: 13px;
-                width: 13px;
-                margin: 0 2px;
-                background-color: #bbb;
-                border-radius: 50%;
-                display: inline-block;
-            }
-.hcg-slide-dot.dot-active {
-    background-color: #717171;
-}
+
+
+
 .hcg-slide-number {
     color: #000000;
     font-size: 15px;
@@ -510,12 +521,18 @@ display: inline-block;
 
 form {
   height : 498px;
-
-
+padding: 40px;
+background-color: rgba(255, 255, 255, 0.253);
 
 
 }
+#homeStudio{
+    position: relative;
+    bottom: 140px;
+    left: 400px;
 
+
+}
 h1 {
   font : 2em "Whitenice", monospace;
   align-self : end;
@@ -591,7 +608,7 @@ button:focus {
 .target1 {
         position: absolute;
     left: 100px;
-    top: 470px;
+    top: 130px;
     width: 400px;
 
 }
@@ -606,22 +623,26 @@ button:focus {
   content: url('./images/left2.png');
     transform: rotate(-40deg);
   left: -350px;
+    top: 340px;
 }
 
 .imageanim:hover .target2 {
   content: url('./images/right2.png');
-  transform: rotate(40deg);
+  transform: rotate(20deg);
   left: 350px;
+  top: 0px;
 }
 .target1,
 .target2 {
-  transition: left 0.5s ease, transform 0.5s ease;
+  transition: left 0.5s ease, top 0.5s ease, transform 0.5s ease;
+
 }
 
 
 #demo{
     position: relative;
     top: -60px;
+    font-family: 'Comfortaa', Arial, Helvetica, sans-serif;
 }
 
 #slideshowtext {
@@ -638,3 +659,5 @@ button:focus {
     position: relative;
     top: 10px;
 }
+
+

@@ -1,7 +1,8 @@
-const imagesList = [
+const imagesList1 = [
     {"src":"images/1.jpg","link":"https://google.com","alt":"","name":"image 1"},
     {"src":"images/2.jpg","link":"https://youtube.com","alt":"","name":"image 2"},
-
+    {"src":"images/3.jpg","link":"https://bing.com","alt":"","name":"image 3"},
+    {"src":"images/8.png","link":"https://yahoo.com","alt":"","name":"image 4"}
 ];
 
 function simpleSlider(selector, imagesList, options = {}) {
@@ -108,7 +109,7 @@ function simpleSlider(selector, imagesList, options = {}) {
     };
 }
 
-const slider = simpleSlider("#hcg-slider-1", imagesList, {
+const slider2 = simpleSlider("#hcg-slider-2", imagesList1, {
     autoplay: false,
     autoplayDelay: 2000,
     pauseOnHover: true
